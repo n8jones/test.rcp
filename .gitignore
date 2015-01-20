@@ -1,3 +1,6 @@
 bin
 target
 workspace
+.project
+.settings
+.classpath
