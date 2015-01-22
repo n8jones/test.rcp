@@ -23,6 +23,11 @@
         </children>
       </children>
     </children>
+    <mainMenu xmi:id="_fyMUMKDOEeS6Cv38ZKC5Kg" elementId="test.rcp.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_k16QQKDPEeS6Cv38ZKC5Kg" elementId="test.rcp.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9p2D8KDPEeS6Cv38ZKC5Kg" elementId="test.rcp.handledmenuitem.exit" label="Exit"/>
+      </children>
+    </mainMenu>
     <sharedElements xsi:type="advanced:Area" xmi:id="_Hmg4kNSjEeGwXp2p959l3w" elementId="org.eclipse.ui.editorss">
       <children xsi:type="basic:PartStack" xmi:id="_HmhfoNSjEeGwXp2p959l3w" elementId="org.eclipse.e4.primaryDataStack">
         <tags>newtablook</tags>
@@ -53,7 +58,9 @@
       <toolbar xmi:id="_4UXAUdSmEeG-a6zBTyJ-wg" elementId="org.eclipse.ui.navigator.ProjectExplorer"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_OtLfAJtzEeS-YKJKuBxeuQ" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console"/>
-    <trimBars xmi:id="_VOV6ANTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.main.toolbar"/>
+    <trimBars xmi:id="_VOV6ANTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.main.toolbar">
+      <children xsi:type="menu:ToolBar" xmi:id="_m-C24KDOEeS6Cv38ZKC5Kg" elementId="test.rcp.toolbar.0"/>
+    </trimBars>
     <trimBars xmi:id="_VP1HwNTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.trim.status" side="Bottom">
       <children xsi:type="menu:ToolControl" xmi:id="_VP1u0NTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>stretch</tags>
